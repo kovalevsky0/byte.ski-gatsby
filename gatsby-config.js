@@ -4,44 +4,44 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    logoTitle: "/usr/max",
-    title: "usrmx.com 🦉",
-    titleTemplate: "%s | usrmx.com 🦉",
+    logoTitle: "novemist",
+    title: "novemist",
+    titleTemplate: "%s | novemist",
     description:
-      "Elit dolore enim exercitation aliquip commodo ex sit do aliquip incididunt adipisicing velit amet.",
+      "This is a blog about programming and software development in general, written by Max Kowalevski (@novemist)",
     keywords: ["programming", "software development", "grokking"],
     siteUrl: process.env.SITE_URL,
     image: "images/default-image.png",
-    twitterUsername: "usrmx",
-    githubUsername: "usrmx",
+    twitterUsername: "novemist",
+    githubUsername: "novemist",
     nav: [
       { path: "/", name: "Home" },
       { path: "/blog", name: "Blog" },
       { path: "/notes/home", name: "Notes" },
       { path: "/about", name: "About" },
     ],
-    copyright: "© usrmx.com 2021",
+    copyright: "© novemist.com 2021",
     footerNav: [
       { path: "/blog", name: "Blog" },
       { path: "/about", name: "About" },
-      { path: "https://twitter.com/usrmx", name: "Twitter" },
-      { path: "https://github.com/usrmx", name: "GitHub" },
+      { path: "https://twitter.com/novemist", name: "Twitter" },
+      { path: "https://github.com/novemist", name: "GitHub" },
     ],
     avatarSrc: "./static/images/avatar.jpg",
     socials: [
       {
         name: "Twitter",
-        url: "https://twitter.com/intent/follow?screen_name=usrmx",
+        url: "https://twitter.com/intent/follow?screen_name=novemist",
         icon: "twitter",
       },
       {
         name: "GitHub",
-        url: "https://github.com/usrmx",
+        url: "https://github.com/novemist",
         icon: "github",
       },
       {
         name: "Patreon",
-        url: "https://www.patreon.com/usrmx",
+        url: "https://www.patreon.com/novemist",
         icon: "patreon",
       },
     ],
@@ -50,8 +50,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `usrmx.com`,
-        short_name: `usrmx.com`,
+        name: `novemist.com`,
+        short_name: `novemist.com`,
         start_url: `/`,
         icon: "./static/images/favicon.png",
         display: `standalone`,
@@ -59,6 +59,6 @@ module.exports = {
     },
     "gatsby-plugin-ts-config",
     "gatsby-plugin-robots-txt",
-    "@usrmx/gatsby-usrmx-theme",
+    "@novemist/gatsby-novemist-theme",
   ],
 };
