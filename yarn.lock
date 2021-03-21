@@ -1758,6 +1758,35 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
+"@novemist/gatsby-novemist-theme@0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@novemist/gatsby-novemist-theme/-/gatsby-novemist-theme-0.0.7.tgz#0b18463dfe5cdbd76a714c6d88b36a98c085b10b"
+  integrity sha512-BRmAGrf3uFgpp0f9zD0NulUwMM3guxve18y8uwntgNU6v4GWZbIsCbI2yG9YOD01ZRMFL5kA3KLGlxnk3BjIWQ==
+  dependencies:
+    "@mdx-js/mdx" "^1.6.22"
+    "@mdx-js/react" "^1.6.22"
+    "@reach/router" "^1.3.4"
+    gatsby-image "^2.9.0"
+    gatsby-plugin-catch-links "^2.10.0"
+    gatsby-plugin-feed "^2.11.0"
+    gatsby-plugin-mdx "^1.8.0"
+    gatsby-plugin-page-creator "^2.8.0"
+    gatsby-plugin-react-helmet "^3.10.0"
+    gatsby-plugin-sharp "^2.12.0"
+    gatsby-plugin-sitemap "^2.12.0"
+    gatsby-plugin-ts-config "^1.1.5"
+    gatsby-remark-double-brackets-link "^0.1.8"
+    gatsby-remark-double-parenthesis-link "^0.1.3"
+    gatsby-remark-images "^3.9.0"
+    gatsby-source-filesystem "^2.9.0"
+    gatsby-transformer-sharp "^2.10.0"
+    mdx-utils "^0.2.0"
+    prism-react-renderer "^1.1.1"
+    react-github-btn "^1.2.0"
+    react-helmet "^6.1.0"
+    react-share "^4.3.1"
+    slugify "^1.4.7"
+
 "@npmcli/move-file@^1.0.1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@npmcli/move-file/-/move-file-1.1.2.tgz#1a82c3e372f7cae9253eb66d72543d6b8685c674"
@@ -2251,35 +2280,6 @@
   dependencies:
     "@typescript-eslint/types" "4.17.0"
     eslint-visitor-keys "^2.0.0"
-
-"@usrmx/gatsby-usrmx-theme@0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@usrmx/gatsby-usrmx-theme/-/gatsby-usrmx-theme-0.0.4.tgz#fdda9363eae1898dbd6e887c1fecd48b8782818a"
-  integrity sha512-R3A2/d3q007HxK8/8vL3zGjhuvpWboWF5JvKoExelRLzLQQ+1f3P6ox59l7WOgCO/Xp3LFdflm5ztOz+b7QRQQ==
-  dependencies:
-    "@mdx-js/mdx" "^1.6.22"
-    "@mdx-js/react" "^1.6.22"
-    "@reach/router" "^1.3.4"
-    gatsby-image "^2.9.0"
-    gatsby-plugin-catch-links "^2.10.0"
-    gatsby-plugin-feed "^2.11.0"
-    gatsby-plugin-mdx "^1.8.0"
-    gatsby-plugin-page-creator "^2.8.0"
-    gatsby-plugin-react-helmet "^3.10.0"
-    gatsby-plugin-sharp "^2.12.0"
-    gatsby-plugin-sitemap "^2.12.0"
-    gatsby-plugin-ts-config "^1.1.5"
-    gatsby-remark-double-brackets-link "^0.1.8"
-    gatsby-remark-double-parenthesis-link "^0.1.3"
-    gatsby-remark-images "^3.9.0"
-    gatsby-source-filesystem "^2.9.0"
-    gatsby-transformer-sharp "^2.10.0"
-    mdx-utils "^0.2.0"
-    prism-react-renderer "^1.1.1"
-    react-github-btn "^1.2.0"
-    react-helmet "^6.1.0"
-    react-share "^4.3.1"
-    slugify "^1.4.7"
 
 "@webassemblyjs/ast@1.11.0":
   version "1.11.0"
