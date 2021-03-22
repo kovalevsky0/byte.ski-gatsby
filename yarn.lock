@@ -1758,10 +1758,10 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@novemist/gatsby-novemist-theme@0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@novemist/gatsby-novemist-theme/-/gatsby-novemist-theme-0.0.7.tgz#0b18463dfe5cdbd76a714c6d88b36a98c085b10b"
-  integrity sha512-BRmAGrf3uFgpp0f9zD0NulUwMM3guxve18y8uwntgNU6v4GWZbIsCbI2yG9YOD01ZRMFL5kA3KLGlxnk3BjIWQ==
+"@novemist/gatsby-novemist-theme@0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@novemist/gatsby-novemist-theme/-/gatsby-novemist-theme-0.0.8.tgz#6d7b2a8bb943972de345543f70c7357481c4b885"
+  integrity sha512-p5+e2PvhF8r/LzVsKDJ88Pkad2Etr096CVQOVbbwOuWmHXMAlhmhHKO1YzE3R9SCdo7fm/p9Touz1XzicTWQ8A==
   dependencies:
     "@mdx-js/mdx" "^1.6.22"
     "@mdx-js/react" "^1.6.22"
