@@ -1,13 +1,13 @@
 {
-  "name": "novemist.com",
+  "name": "mxkvl.com",
   "private": true,
-  "description": "novemist's personal website",
+  "description": "Max Kovalevsky's personal website",
   "version": "1.0.0",
-  "author": "Max Kowalevski <me@novemist.com> (https://novemist.com)",
+  "author": "Max Kovalevsky <me@mxkvl.com> (https://mxkvl.com)",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@novemist/gatsby-novemist-theme": "0.0.8",
+    "@mxkvl/gatsby-novemist-theme": "0.0.10",
     "dotenv": "^8.2.0",
     "gatsby": "^3.0.3",
     "gatsby-plugin-manifest": "^3.0.0",
@@ -23,6 +23,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/novemist/novemist.com"
+    "url": "https://github.com/mxkvl/mxkvl.com"
   }
 }
