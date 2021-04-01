@@ -17,7 +17,7 @@ module.exports = {
     nav: [
       { path: "/", name: "Home" },
       { path: "/blog", name: "Blog" },
-      { path: "/notes/home", name: "Notes" },
+      { path: "/notes", name: "Notes" },
       { path: "/about", name: "About" },
     ],
     copyright: "© mxkvl 2021",
