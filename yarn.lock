@@ -1737,10 +1737,10 @@
   resolved "https://registry.yarnpkg.com/@mikaelkristiansson/domready/-/domready-1.0.11.tgz#6a4b5891dccb6402ff4e944de843036ee1ffd4f5"
   integrity sha512-nEBLOa0JgtqahmPrnJZ18epLiFBzxhdKgo4uhN3TaBFRmM30pEVrS9FAEV4tg92d8PTdU+dYQx2lnpPyFMgMcg==
 
-"@mxkvl/gatsby-novemist-theme@0.0.21":
-  version "0.0.21"
-  resolved "https://registry.yarnpkg.com/@mxkvl/gatsby-novemist-theme/-/gatsby-novemist-theme-0.0.21.tgz#ca82cc95207fac8f94bc91ef231514ee3d0c299f"
-  integrity sha512-/FRQHMNvszFaP5ef3lXGSq2D8z99ZGKyBbFPQXtId8Aj883TNYKzfoB5pLHYVuvFPxxzKxd0xNzPtBhmC7fO7A==
+"@mxkvl/gatsby-novemist-theme@0.0.22":
+  version "0.0.22"
+  resolved "https://registry.yarnpkg.com/@mxkvl/gatsby-novemist-theme/-/gatsby-novemist-theme-0.0.22.tgz#1ca81648f2777c6bc9706d2953c0910d616b49c8"
+  integrity sha512-ORTSYj7cnRanCurXaH+7rbjr4ttr8sDBoL7I6XffjObLl7msFtbtzPZ5oVW02EOjA85ApcsrqnR1OQ8xSi2ZqA==
   dependencies:
     "@mdx-js/mdx" "^1.6.22"
     "@mdx-js/react" "^1.6.22"
