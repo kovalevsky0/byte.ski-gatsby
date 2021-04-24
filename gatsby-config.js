@@ -59,6 +59,12 @@ module.exports = {
     },
     "gatsby-plugin-ts-config",
     "gatsby-plugin-robots-txt",
+    {
+      resolve: `gatsby-plugin-plausible`,
+      options: {
+        domain: `mxkvl.com`,
+      },
+    },
     "@mxkvl/gatsby-novemist-theme",
   ],
 };
