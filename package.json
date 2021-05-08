@@ -7,9 +7,9 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@mxkvl/gatsby-novemist-theme": "0.0.25",
+    "@mxkvl/gatsby-novemist-theme": "0.0.27",
     "dotenv": "^8.2.0",
-    "gatsby": "^3.0.3",
+    "gatsby": "3.4",
     "gatsby-plugin-manifest": "^3.0.0",
     "gatsby-plugin-plausible": "^0.0.7",
     "gatsby-plugin-robots-txt": "^1.5.5",
