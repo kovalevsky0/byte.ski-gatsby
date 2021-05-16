@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     logoTitle: "Max Kovalevsky",
     title: "Max Kovalevsky's Website",
-    titleTemplate: "%s | mxkvl.com",
+    titleTemplate: "%s",
     description:
       "This is a blog about programming and software development in general, written by Max Kovalevsky (@mxkvl)",
     keywords: ["programming", "software development", "grokking"],
