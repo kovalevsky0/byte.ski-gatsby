@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     logoTitle: "Max Kovalevsky",
-    title: "Max Kovalevsky's Website",
+    title: "Max Kovalevsky",
     titleTemplate: "%s",
     description:
       "This is a blog about programming and software development in general, written by Max Kovalevsky (@mxkvl)",
@@ -40,9 +40,9 @@ module.exports = {
         icon: "github",
       },
       {
-        name: "Patreon",
-        url: "https://www.patreon.com/mxkvl",
-        icon: "patreon",
+        name: "r/mxkvl",
+        url: "https://www.reddit.com/r/mxkvl",
+        icon: "reddit",
       },
     ],
   },
