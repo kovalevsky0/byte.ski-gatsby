@@ -1,0 +1,94 @@
+.ts-anthology-page {
+  padding-bottom: 30px;
+}
+
+.ts-anthology-page__logo {
+  width: 190px;
+  display: block;
+  margin: 70px auto 0 auto;
+}
+
+.ts-anthology-page__main-content {
+  width: 800px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+}
+
+.ts-anthology-page__form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.ts-anthology-page__form {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ts-anthology-page__input {
+  background: #37383a;
+  border: 1px solid #1c1d1e;
+  outline: none;
+  border-radius: 4px;
+  padding: 13px 17px;
+  width: 100%;
+  margin-bottom: 18px;
+  color: #e2e2e2;
+  font-size: 1.5rem;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: #e2e2e2;
+}
+
+.ts-anthology-page__button {
+  background: #387cc8;
+  color: #fff;
+  border: 1px solid #1c1d1e;
+  outline: none;
+  border-radius: 4px;
+  width: 100%;
+  padding: 8px 3px;
+  font-weight: bold;
+  font-family: "Roboto Mono";
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.ts-anthology-page__title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-family: "Roboto Mono";
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ts-anthology-page__home {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.ts-anthology-page__benefits {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.ts-anthology-page__benefits h4 {
+  margin-bottom: 15px;
+}
+
+.ts-anthology-page__copyright {
+  text-align: center;
+  width: 100%;
+}
+
+.ts-anthology-page__copyright a {
+  color: #f4f4f4;
+}
