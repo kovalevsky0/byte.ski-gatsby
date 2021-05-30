@@ -62,6 +62,7 @@ const TypeScriptAnthology: FC<PageProps<{}, PageContextValue>> = ({
             still in Work In Progress status but they are already available for
             everyone.
           </p>
+          <p>The book is available in PDF format.</p>
           <p style={{ textDecoration: "underline" }}>
             Join my Mailing List to get the latest version of book for free.
           </p>
@@ -81,18 +82,22 @@ const TypeScriptAnthology: FC<PageProps<{}, PageContextValue>> = ({
             </button>
           </form>
         </div>
-        {isInitialStatus && (
+        {!isInitialStatus && (
           <div
             style={{ margin: "0 auto", fontSize: "20px", textAlign: "center" }}
           >
-            {!isSuccessStatus && (
+            {isSuccessStatus && (
               <div>
                 <Icon
                   src={icons.emojiSparkles}
                   widthSize="20px"
                   indentRight="10px"
                 />
-                <span>Please go confirm your subscription!</span>
+                <span>
+                  Please go confirm your subscription in your email inbox!{" "}
+                  <br /> After that you will receive a letter with links to
+                  download the book.
+                </span>
               </div>
             )}
             {isErrorStatus && (
