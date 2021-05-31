@@ -23,8 +23,9 @@ export const TsAnthologyBookBanner: FC<Props> = ({ convertkitEndpoint }) => {
             applications on Back End and Front End.
           </p>
           <p>
-            The series is available as <strong>PDF eBook</strong> for{" "}
-            <strong>free</strong> to everyone.
+            The series and the book are still in <i>Work In Progress</i> status
+            but they are already available for everyone. The book is available
+            in <strong>PDF</strong> format.
           </p>
         </>
       }
