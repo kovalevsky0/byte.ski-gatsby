@@ -132,7 +132,7 @@ const TypeScriptAnthology: FC<PageProps<{}, PageContextValue>> = ({
           </ul>
         </div>
         <div className="ts-anthology-page__copyright">
-          @ 2021 <a href="https://mxkvl.com">Max Kovalevsky</a>
+          @ 2021 <a href="https://kowalevski.com">Max Kowalevski</a>
         </div>
       </div>
     </>
