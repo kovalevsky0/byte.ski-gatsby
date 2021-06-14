@@ -8,24 +8,24 @@ module.exports = {
     title: "Max Kovalevsky",
     titleTemplate: "%s",
     description:
-      "This is a blog about programming and software development in general, written by Max Kovalevsky (@mxkvl)",
+      "This is a blog about programming and software development in general, written by Max Kowalevski",
     keywords: ["programming", "software development", "grokking"],
     siteUrl: process.env.SITE_URL,
     image: "images/default-image.png",
     twitterUsername: "mxkwl",
-    githubUsername: "mxkvl",
+    githubUsername: "kowalevski",
     nav: [
       { path: "/", name: "Home" },
       { path: "/blog", name: "Blog" },
       { path: "/notes", name: "Notes" },
       { path: "/about", name: "About" },
     ],
-    copyright: "© mxkvl 2021",
+    copyright: "© Max Kowalevski 2021",
     footerNav: [
       { path: "/blog", name: "Blog" },
       { path: "/about", name: "About" },
       { path: "https://twitter.com/mxkwl", name: "Twitter" },
-      { path: "https://github.com/mxkvl", name: "GitHub" },
+      { path: "https://github.com/kowalevski", name: "GitHub" },
     ],
     avatarSrc: "./static/images/avatar.jpg",
     socials: [
@@ -36,22 +36,17 @@ module.exports = {
       },
       {
         name: "GitHub",
-        url: "https://github.com/mxkvl",
+        url: "https://github.com/kowalevski",
         icon: "github",
-      },
-      {
-        name: "r/mxkvl",
-        url: "https://www.reddit.com/r/mxkvl",
-        icon: "reddit",
-      },
+      }
     ],
   },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `mxkvl.com`,
-        short_name: `mxkvl.com`,
+        name: `kowalevski.com`,
+        short_name: `kowalevski.com`,
         start_url: `/`,
         icon: "./static/images/favicon.png",
         display: `standalone`,
@@ -62,9 +57,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-plausible`,
       options: {
-        domain: `mxkvl.com`,
+        domain: `kowalevski.com`,
       },
     },
-    "@mxkvl/gatsby-novemist-theme",
+    "@kowalevski/gatsby-midnight-theme",
   ],
 };

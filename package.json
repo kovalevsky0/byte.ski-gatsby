@@ -1,13 +1,13 @@
 {
-  "name": "mxkvl.com",
+  "name": "kowalevski.com",
   "private": true,
-  "description": "Max Kovalevsky's personal website",
+  "description": "Max Kowalevski's personal website",
   "version": "1.0.0",
-  "author": "Max Kovalevsky <me@mxkvl.com> (https://mxkvl.com)",
+  "author": "Max Kowalevski <me@kowalevski.com> (https://kowalevski.com)",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@mxkvl/gatsby-novemist-theme": "0.0.3-3.1",
+    "@kowalevski/gatsby-midnight-theme": "0.1.1",
     "dotenv": "^8.2.0",
     "gatsby": "3.4",
     "gatsby-plugin-manifest": "^3.0.0",
@@ -24,6 +24,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mxkvl/mxkvl.com"
+    "url": "https://github.com/kowalevski/kowalevski.com"
   }
 }

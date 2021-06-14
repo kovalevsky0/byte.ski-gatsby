@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 
-import { PostBanner, Icon, icons } from "@mxkvl/gatsby-novemist-theme";
+import { PostBanner, Icon, icons } from "@kowalevski/gatsby-midnight-theme";
 
 interface Props {
   convertkitEndpoint: string;
