@@ -1829,10 +1829,10 @@
     "@babel/runtime" "^7.7.2"
     regenerator-runtime "^0.13.3"
 
-"@kowalevski/gatsby-midnight-theme@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@kowalevski/gatsby-midnight-theme/-/gatsby-midnight-theme-0.1.1.tgz#b2db187c23e320421a44d85ac682558e9c004d85"
-  integrity sha512-0eVKcZwUQPEHxFg+7yJa3wQHnuyVAbrcJnhs4NwzjdwU/duc7slsDpNHiV1vJtWx2p9xpBCLRSdM+UEfigyf+A==
+"@kowalevski/gatsby-midnight-theme@0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@kowalevski/gatsby-midnight-theme/-/gatsby-midnight-theme-0.1.2.tgz#38197d13343229b4e0a59e10a69f2548e7109040"
+  integrity sha512-qcEOoE2KhHCtwUzrUn50oPmgXPsNVt09wkt9FklXFXl/sH14TYttgqg9bgWyqTtHJFf9WNW1OAfkVyz6cFVHnA==
   dependencies:
     "@mdx-js/mdx" "^1.6.22"
     "@mdx-js/react" "^1.6.22"
