@@ -1829,6 +1829,35 @@
     "@babel/runtime" "^7.7.2"
     regenerator-runtime "^0.13.3"
 
+"@kowalevski/gatsby-midnight-theme@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@kowalevski/gatsby-midnight-theme/-/gatsby-midnight-theme-0.1.1.tgz#b2db187c23e320421a44d85ac682558e9c004d85"
+  integrity sha512-0eVKcZwUQPEHxFg+7yJa3wQHnuyVAbrcJnhs4NwzjdwU/duc7slsDpNHiV1vJtWx2p9xpBCLRSdM+UEfigyf+A==
+  dependencies:
+    "@mdx-js/mdx" "^1.6.22"
+    "@mdx-js/react" "^1.6.22"
+    "@reach/router" "^1.3.4"
+    gatsby-image "^2.9.0"
+    gatsby-plugin-catch-links "^2.10.0"
+    gatsby-plugin-feed "^2.11.0"
+    gatsby-plugin-mdx "^1.8.0"
+    gatsby-plugin-page-creator "^2.8.0"
+    gatsby-plugin-react-helmet "^3.10.0"
+    gatsby-plugin-sharp "^2.12.0"
+    gatsby-plugin-sitemap "^2.12.0"
+    gatsby-plugin-ts-config "^1.1.5"
+    gatsby-remark-double-brackets-link "^0.1.8"
+    gatsby-remark-double-parenthesis-link "^0.1.3"
+    gatsby-remark-images "^3.9.0"
+    gatsby-source-filesystem "^2.9.0"
+    gatsby-transformer-sharp "^2.10.0"
+    mdx-utils "^0.2.0"
+    prism-react-renderer "^1.1.1"
+    react-github-btn "^1.2.0"
+    react-helmet "^6.1.0"
+    react-share "^4.3.1"
+    slugify "^1.4.7"
+
 "@mdx-js/mdx@^1.6.22":
   version "1.6.22"
   resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-1.6.22.tgz#8a723157bf90e78f17dc0f27995398e6c731f1ba"
@@ -1878,35 +1907,6 @@
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/@mikaelkristiansson/domready/-/domready-1.0.11.tgz#6a4b5891dccb6402ff4e944de843036ee1ffd4f5"
   integrity sha512-nEBLOa0JgtqahmPrnJZ18epLiFBzxhdKgo4uhN3TaBFRmM30pEVrS9FAEV4tg92d8PTdU+dYQx2lnpPyFMgMcg==
-
-"@mxkvl/gatsby-novemist-theme@0.0.3-3.1":
-  version "0.0.3-3.1"
-  resolved "https://registry.yarnpkg.com/@mxkvl/gatsby-novemist-theme/-/gatsby-novemist-theme-0.0.3-3.1.tgz#d169433f71a3e87de99b5bf193961aa81a7448fa"
-  integrity sha512-KlDgL2QqHvSdLUZq2zCBUT3pFy+rAwGpitJgu+CzJBS0rIka1Rj4vWJjkACuko+K51SRw3MJojkTc1kic0bqLA==
-  dependencies:
-    "@mdx-js/mdx" "^1.6.22"
-    "@mdx-js/react" "^1.6.22"
-    "@reach/router" "^1.3.4"
-    gatsby-image "^2.9.0"
-    gatsby-plugin-catch-links "^2.10.0"
-    gatsby-plugin-feed "^2.11.0"
-    gatsby-plugin-mdx "^1.8.0"
-    gatsby-plugin-page-creator "^2.8.0"
-    gatsby-plugin-react-helmet "^3.10.0"
-    gatsby-plugin-sharp "^2.12.0"
-    gatsby-plugin-sitemap "^2.12.0"
-    gatsby-plugin-ts-config "^1.1.5"
-    gatsby-remark-double-brackets-link "^0.1.8"
-    gatsby-remark-double-parenthesis-link "^0.1.3"
-    gatsby-remark-images "^3.9.0"
-    gatsby-source-filesystem "^2.9.0"
-    gatsby-transformer-sharp "^2.10.0"
-    mdx-utils "^0.2.0"
-    prism-react-renderer "^1.1.1"
-    react-github-btn "^1.2.0"
-    react-helmet "^6.1.0"
-    react-share "^4.3.1"
-    slugify "^1.4.7"
 
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"

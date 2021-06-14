@@ -8,7 +8,7 @@ import {
   useConvertkitEmailSubscription,
   useTheme,
   icons,
-} from "@mxkvl/gatsby-novemist-theme";
+} from "@kowalevski/gatsby-midnight-theme";
 
 import "../styles/subscribe-page.css";
 
