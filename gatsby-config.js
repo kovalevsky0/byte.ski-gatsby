@@ -4,8 +4,8 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    logoTitle: "Max Kovalevsky",
-    title: "Max Kovalevsky",
+    logoTitle: "Max Kowalevski",
+    title: "Max Kowalevski",
     titleTemplate: "%s",
     description:
       "This is a blog about programming and software development in general, written by Max Kowalevski",
