@@ -18,7 +18,7 @@ interface PageContextValue {
   convertkitEndpoint: string;
 }
 
-const TypeScriptAnthology: FC<PageProps<{}, PageContextValue>> = ({
+const GrokkingTypeScript: FC<PageProps<{}, PageContextValue>> = ({
   pageContext: { convertkitEndpoint },
 }) => {
   const { theme } = useTheme();
@@ -33,7 +33,7 @@ const TypeScriptAnthology: FC<PageProps<{}, PageContextValue>> = ({
 
   return (
     <>
-      <SEO theme={theme} title="The TypeScript Anthology eBook" isBodyDarker />
+      <SEO theme={theme} title="Grokking TypeScript eBook" isBodyDarker />
       <GoBackTo
         type="link"
         to="/"
@@ -50,14 +50,14 @@ const TypeScriptAnthology: FC<PageProps<{}, PageContextValue>> = ({
         <img
           className="ts-anthology-page__logo"
           src={logo}
-          alt="TypeScript Anthology Logo"
+          alt="Grokking TypeScript Logo"
         />
-        <h1 className="ts-anthology-page__title">The TypeScript Anthology</h1>
+        <h1 className="ts-anthology-page__title">Grokking TypeScript</h1>
         <div className="ts-anthology-page__main-content">
           <p>
             It is a series of posts about TypeScript and technologies in it's
             ecosystem. All these posts are parts of ebook{" "}
-            <i>The TypeScript Anthology</i>. The posts and the book are fully
+            <i>Grokking TypeScript</i>. The posts and the book are fully
             available for <strong>free</strong>. The series and the book are
             still in Work In Progress status but they are already available for
             everyone.
@@ -139,4 +139,4 @@ const TypeScriptAnthology: FC<PageProps<{}, PageContextValue>> = ({
   );
 };
 
-export default TypeScriptAnthology;
+export default GrokkingTypeScript;

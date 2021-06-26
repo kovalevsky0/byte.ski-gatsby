@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 
 import { PostBanner, Icon, icons } from "@kowalevski/gatsby-midnight-theme";
+import { Link } from "gatsby";
 
 interface Props {
   convertkitEndpoint: string;
@@ -17,7 +18,9 @@ export const TsAnthologyBookBanner: FC<Props> = ({ convertkitEndpoint }) => {
             This post is part of series of posts about{" "}
             <strong>TypeScript</strong> called{" "}
             <strong>
-              <i>The TypeScript Anthology</i>
+              <Link to="/grokking-typescript">
+                <i>Grokking TypeScript</i>
+              </Link>
             </strong>
             . It will guide you from scratch to writing full TypeScript
             applications on Back End and Front End.
