@@ -10,7 +10,7 @@ import {
   icons,
 } from "@kowalevski/gatsby-midnight-theme";
 
-import "../styles/ts-anthology-page.css";
+import "../styles/grokking-typescript-page.css";
 
 import logo from "../../static/images/ts-anthology-logo.png";
 
@@ -39,21 +39,20 @@ const GrokkingTypeScript: FC<PageProps<{}, PageContextValue>> = ({
         to="/"
         theme={theme}
         style={{
-          position: "fixed",
-          top: "10px",
-          left: "10px",
+          marginTop: "10px",
+          marginLeft: "10px",
         }}
       >
         Home Page
       </GoBackTo>
-      <div className="ts-anthology-page">
+      <div className="grokking-ts-page">
         <img
-          className="ts-anthology-page__logo"
+          className="grokking-ts-page__logo"
           src={logo}
           alt="Grokking TypeScript Logo"
         />
-        <h1 className="ts-anthology-page__title">Grokking TypeScript</h1>
-        <div className="ts-anthology-page__main-content">
+        <h1 className="grokking-ts-page__title">Grokking TypeScript</h1>
+        <div className="grokking-ts-page__main-content">
           <p>
             It is a series of posts about TypeScript and technologies in it's
             ecosystem. All these posts are parts of ebook{" "}
@@ -67,19 +66,17 @@ const GrokkingTypeScript: FC<PageProps<{}, PageContextValue>> = ({
             Join my Mailing List to get the latest version of book for free.
           </p>
         </div>
-        <div className="ts-anthology-page__form-wrapper">
-          <form className="ts-anthology-page__form" onSubmit={handleSubmit}>
+        <div className="grokking-ts-page__form-wrapper">
+          <form className="grokking-ts-page__form" onSubmit={handleSubmit}>
             <input
               type="email"
               name="email_address"
               placeholder="Email address"
-              className="ts-anthology-page__input"
+              className="grokking-ts-page__input"
               onChange={handleChangeEmail}
               value={email}
             />
-            <button className="ts-anthology-page__button">
-              Download eBook
-            </button>
+            <button className="grokking-ts-page__button">Download eBook</button>
           </form>
         </div>
         {!isInitialStatus && (
@@ -114,7 +111,7 @@ const GrokkingTypeScript: FC<PageProps<{}, PageContextValue>> = ({
             )}
           </div>
         )}
-        <div className="ts-anthology-page__benefits">
+        <div className="grokking-ts-page__benefits">
           <h4>What Will You Receive After Signing Up?</h4>
           <ul>
             <li>✅ The latest version of the book</li>
@@ -131,7 +128,7 @@ const GrokkingTypeScript: FC<PageProps<{}, PageContextValue>> = ({
             </li>
           </ul>
         </div>
-        <div className="ts-anthology-page__copyright">
+        <div className="grokking-ts-page__copyright">
           @ 2021 <a href="https://kowalevski.com">Max Kowalevski</a>
         </div>
       </div>
