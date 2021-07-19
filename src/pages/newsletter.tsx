@@ -33,7 +33,11 @@ const NewsletterPage: FC<PageProps<{}, PageContextValue>> = ({
 
   return (
     <>
-      <SEO theme={theme} title="Weekly Dose of Devs Stuff" isBodyDarker />
+      <SEO
+        theme={theme}
+        title="Weekly Dose Of TypeScript And Other Software Devs Stuff"
+        isBodyDarker
+      />
       <GoBackTo
         type="link"
         to="/"
@@ -51,7 +55,17 @@ const NewsletterPage: FC<PageProps<{}, PageContextValue>> = ({
           src={logo}
           alt="Weekly Dose of Dev Stuff Logo"
         />
-        <h1 className="newsletter-page__title">Weekly Dose of Devs Stuff</h1>
+        <div
+          style={{
+            margin: "0 auto 30px auto",
+            maxWidth: "1100px",
+            width: "100%",
+          }}
+        >
+          <h1 className="newsletter-page__title">
+            Weekly Dose Of TypeScript And Other Software Devs Stuff
+          </h1>
+        </div>
         <div className="newsletter-page__subtitle">
           <h3>
             This is a weekly newsletter with resources about TypeScript and
@@ -71,7 +85,7 @@ const NewsletterPage: FC<PageProps<{}, PageContextValue>> = ({
           </p>
           <p>
             By subscribing to this newsletter you will also be the first to
-            receive materials of my <Link to="/blog">blog</Link> and last
+            receive materials from my <Link to="/blog">blog</Link> and last
             updates of my eBook{" "}
             <Link to="/grokking-typescript">Grokking TypeScript</Link>
           </p>

@@ -84,9 +84,9 @@ body #gatsby-focus-wrapper {
 }
 
 .newsletter-page__logo {
-  width: 190px;
+  width: 155px;
   display: block;
-  margin: 20px auto 0 auto;
+  margin: 0px auto 0 auto;
 }
 
 .newsletter-page__subscription-result {
