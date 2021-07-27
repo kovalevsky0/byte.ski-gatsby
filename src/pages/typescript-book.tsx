@@ -10,7 +10,7 @@ import {
   icons,
 } from "@kowalevski/gatsby-midnight-theme";
 
-import "../styles/grokking-typescript-page.css";
+import "../styles/typescript-book-page.css";
 
 import logo from "../../static/images/ts-anthology-logo.png";
 
@@ -18,7 +18,7 @@ interface PageContextValue {
   convertkitEndpoint: string;
 }
 
-const GrokkingTypeScript: FC<PageProps<{}, PageContextValue>> = ({
+const TypeScriptBookPage: FC<PageProps<{}, PageContextValue>> = ({
   pageContext: { convertkitEndpoint },
 }) => {
   const { theme } = useTheme();
@@ -136,4 +136,4 @@ const GrokkingTypeScript: FC<PageProps<{}, PageContextValue>> = ({
   );
 };
 
-export default GrokkingTypeScript;
+export default TypeScriptBookPage;
