@@ -35,7 +35,7 @@ const NewsletterPage: FC<PageProps<{}, PageContextValue>> = ({
     <>
       <SEO
         theme={theme}
-        title="Weekly Dose Of TypeScript And Other Software Devs Stuff"
+        title="Weekly Dose Of Software Engineering Stuff"
         isBodyDarker
       />
       <GoBackTo
@@ -63,13 +63,13 @@ const NewsletterPage: FC<PageProps<{}, PageContextValue>> = ({
           }}
         >
           <h1 className="newsletter-page__title">
-            Weekly Dose Of TypeScript And Other Software Devs Stuff
+            Weekly Dose Of <br /> Software Engineering Stuff
           </h1>
         </div>
         <div className="newsletter-page__subtitle">
           <h3>
-            This is a weekly newsletter with resources about TypeScript and
-            other stuff for techies which I found interesting.
+            This is a weekly newsletter with resources about stuff for techies
+            which I found interesting.
           </h3>
         </div>
         <div className="newsletter-page__main-content">
@@ -79,15 +79,9 @@ const NewsletterPage: FC<PageProps<{}, PageContextValue>> = ({
           </p>
           <p>
             My day job involves TypeScript and because I am a note-taking nerd I
-            keep a list of links and resources about it and{" "}
+            keep lists of links and resources about it and{" "}
             <strong>other things that I found interesting</strong>. I decided to
             share it with everyone who might be interested.
-          </p>
-          <p>
-            By subscribing to this newsletter you will also be the first to
-            receive materials from my <Link to="/blog">blog</Link> and last
-            updates of my eBook{" "}
-            <Link to="/grokking-typescript">Grokking TypeScript</Link>
           </p>
         </div>
         <div className="newsletter-page__form-wrapper">
@@ -132,6 +126,26 @@ const NewsletterPage: FC<PageProps<{}, PageContextValue>> = ({
             )}
           </div>
         )}
+        <div className="newsletter-page__main-content">
+          <p>
+            By subscribing to this newsletter you will also be the first to
+            receive materials from my <Link to="/blog">blog</Link> and last
+            updates of{" "}
+            <Link to="/typescript-book">my eBook about TypeScript</Link>
+          </p>
+          <p>
+            The goal of this newsletter is to share resources from my blog and
+            the Internet that are related to topics that I found interesting as
+            a software developer.
+          </p>
+          <p>
+            The content related to TypeScript, Node, programming languages in
+            general, testing for devs, writing and note-taking, useful resources
+            about computer science, algorithms and data structures, interview
+            preparation, software architecture, books, DevOps, and many many
+            other interesting things.
+          </p>
+        </div>
       </div>
     </>
   );

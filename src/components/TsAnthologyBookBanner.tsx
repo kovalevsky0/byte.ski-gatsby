@@ -15,11 +15,10 @@ export const TsAnthologyBookBanner: FC<Props> = ({ convertkitEndpoint }) => {
       content={
         <>
           <p>
-            This post is part of series of posts about{" "}
-            <strong>TypeScript</strong> called{" "}
+            This post is part of series and{" "}
             <strong>
-              <Link to="/grokking-typescript">
-                <i>Grokking TypeScript</i>
+              <Link to="/typescript-book">
+                <i>book about TypeScript</i>
               </Link>
             </strong>
             . It will guide you from scratch to writing full TypeScript
