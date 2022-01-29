@@ -7,7 +7,7 @@
   "private": true,
   "author": "byteski <me@byteski.net>",
   "dependencies": {
-    "@byteski/gatsby-midnight-theme": "0.1.7",
+    "@byteski/gatsby-midnight-theme": "^0.1.8",
     "canvas": "^2.8.0",
     "gatsby": "^2.30.1",
     "gatsby-plugin-manifest": "^2.10.0",
