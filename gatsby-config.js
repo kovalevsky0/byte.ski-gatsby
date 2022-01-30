@@ -45,8 +45,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `byteski.net`,
-        short_name: `byteski.net`,
+        name: `byte.ski`,
+        short_name: `byte.ski`,
         start_url: `/`,
         icon: "./static/images/favicon.png",
         display: `standalone`,
@@ -57,7 +57,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-plausible`,
       options: {
-        domain: `byteski.net`,
+        domain: `byte.ski`,
       },
     },
     "@byteski/gatsby-midnight-theme",

@@ -1,11 +1,11 @@
 {
-  "name": "byteski.net",
+  "name": "byte.ski",
   "version": "0.0.1",
   "description": "Byteski's personal website and blog",
   "main": "index.js",
   "license": "MIT",
   "private": true,
-  "author": "byteski <me@byteski.net>",
+  "author": "byteski <me@byte.ski>",
   "dependencies": {
     "@byteski/gatsby-midnight-theme": "^0.1.8",
     "canvas": "^2.8.0",
@@ -24,6 +24,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/byteski/byteski.net"
+    "url": "https://github.com/byteski/byte.ski"
   }
 }

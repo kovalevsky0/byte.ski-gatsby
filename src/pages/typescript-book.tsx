@@ -129,7 +129,7 @@ const TypeScriptBookPage: FC<PageProps<{}, PageContextValue>> = ({
           </ul>
         </div>
         <div className="grokking-ts-page__copyright">
-          @ 2022 <a href="https://byteski.net">Byteski</a>
+          @ 2022 <a href="https://byte.ski">Byteski</a>
         </div>
       </div>
     </>
